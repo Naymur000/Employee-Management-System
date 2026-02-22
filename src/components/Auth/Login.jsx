@@ -23,6 +23,7 @@ const Login = () => {
                     <button className='text-2xl outline-none border-none bg-emerald-600 py-1 px-10 rounded-full my-2'>Log in</button>
                 </form>
             </div>
+            <p>Hello</p>
              
         </div>
     );
