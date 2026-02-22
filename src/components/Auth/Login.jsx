@@ -1,6 +1,10 @@
+// import { useState } from "react";
 
 
 const Login = () => {
+
+   
+    
 
     const submitHandler = (e)=>{
         e.preventDefault()
@@ -12,13 +16,14 @@ const Login = () => {
             <div className='border-2 border-emerald-900 p-12 rounded-xl '>
                 <form onSubmit={(e)=>{
                     submitHandler(e)
-                }} className='flex flex-col items-center justify-center'>
+                }} 
+                className='flex flex-col items-center justify-center'>
                     <input required className='text-2xl outline-none border-2 border-emerald-600 py-1 px-10 rounded-full my-2 bg-transparent placeholder:text-gray-400' type="email" placeholder='enter your email' />
                     <input required className='text-2xl outline-none border-2 border-emerald-600 py-1 px-10 rounded-full my-2 bg-transparent placeholder:text-gray-400' type="password" placeholder='enter your password' />
                     <button className='text-2xl outline-none border-none bg-emerald-600 py-1 px-10 rounded-full my-2'>Log in</button>
                 </form>
             </div>
-            
+             
         </div>
     );
 };
