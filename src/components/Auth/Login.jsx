@@ -23,7 +23,7 @@ const Login = () => {
                 className='flex flex-col items-center justify-center'>
                     <input 
                     onChange={(e)=> {
-                        console.log(e)
+                        console.log(e.target.value)
                     }}
                     required 
                     className='text-2xl outline-none border-2 border-emerald-600 py-1 px-10 rounded-full my-2 bg-transparent placeholder:text-gray-400' type="email" placeholder='enter your email' />
