@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Login = () => {
 
-   
+    
     const [email , setEmail] = useState('')
     const [password, setPassword] = useState('');
 
@@ -19,8 +19,8 @@ const Login = () => {
             <div className='border-2 border-emerald-900 p-12 rounded-xl '>
                 <form onSubmit={(e)=>{
                     submitHandler(e)
-                }} 
-                className='flex flex-col items-center justify-center'>
+                    }} 
+                    className='flex flex-col items-center justify-center'>
                     <input 
                     onChange={(e)=> {
                         console.log(e.target.value)
@@ -31,7 +31,7 @@ const Login = () => {
                     <button className='text-2xl outline-none border-none bg-emerald-600 py-1 px-10 rounded-full my-2'>Log in</button>
                 </form>
             </div>
-             {/* <h1>hello</h1> */}
+            <h1>hello</h1>
         </div>
     );
 };
